@@ -1,4 +1,4 @@
-/* global jsQR */
+import jsQR from 'jsqr';
 import React, { useState, useRef, useEffect } from 'react';
 import { Camera, X, RefreshCw, Download } from 'lucide-react';
 
@@ -183,8 +183,6 @@ export default function QRScanner() {
           )}
         </div>
       </div>
-
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jsQR/1.4.0/jsQR.min.js"></script>
     </div>
   );
 }
