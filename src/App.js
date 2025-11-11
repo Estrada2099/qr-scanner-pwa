@@ -1,3 +1,4 @@
+/* global jsQR */
 import React, { useState, useRef, useEffect } from 'react';
 import { Camera, X, RefreshCw, Download } from 'lucide-react';
 
